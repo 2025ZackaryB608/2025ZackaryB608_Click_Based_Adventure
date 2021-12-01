@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<div id="sleep" class="step" data-x="-1000" data-y="-1500">
+    <link rel="stylesheet" href="styles.css">
+
+  <h1>You wake up from a 10 year coma in an abandoned space station. The last thing you remember is thankgiving dinner.</h1>
+
+  <a href="#wakeup">Wake up</a>
+  <a href="#sleep">Go back to sleep</a>
+</div>
+
+<div id="wakeup" class="step" data-x="0" data-y="-1500">
+  <H1></H1>
+  <p>You look around and think what about how your approach this situation</p>
+
+  <p><img src="https://i.ytimg.com/vi/2b0QACI-WOw/maxresdefault.jpg"></p>
+
+  <a href="#more">Explore the ship</a>
+  <a href="#sleep">Go back to sleep</a>
+</div>
+
+<div id="more" class="step" data-x="0" data-y="-1500" data-z="1500">
+  <H1>Where do you go?</h1>
+
+  <a href="#CaptainQuarters">Captian's Quarters</a>
+  <a href="#up">Stairs going up</a>
+  <a href="#down">Stairs going down</a>
+
+</div>
+
+<div id="up">
+<h1>You find the mess hall!</h1>
+    
+    
+    
+    <a href="#more">Go back to the main hall</a>
+    <a href="#sleep">Go back to sleep</a>
+
+</div>
+
+<div id="CaptainQuarters" class="step" data-x="850" data-y="3000" data-z="1000" data-rotate="90">
+  <H1>You enter the captain quarters and you hear someone crying. </h1>
+
+  <a href="#desk">Look on desk</a>
+  <a href="#closet">Look in closet</a>
+  <a href="#empty">Check in the bed</a>
+  <a href="#sleep">Go back to sleep</a>
+</div>
+
+<div id="empty">
+  <h1>The Pokeball is empty</h1>
+  <p>I'm sorry Ash. It looks like that one is already chosen.</p>
+  
+  <a href="#oak">Choose again.</a>
+  <a href="#pika">What else you got?</a>
+</div>
+
+<div id="desk">
+<h1>All you can find on the desk is a coffe mug with 10 year old coffe, gross</h1>
+    
+    
+    
+    <a href="#CaptainQuarters">Look in a different place</a>
+    <a href="#sleep">Go back to sleep</a>
+</div>
+
+<div id="pika">
+  <h1>I think there is one more Pokemon..</h1>
+  <p>Here is one more Pokeball. But I must warn you he is a fiesty little fella</p>
+  
+  <a href="#open-pika">Open Pokeball</a>
+    <a href="#oak">Nah.</a>
+</div>
+
+<div id="open-pika">
+  <h1>:0!</h1>
+  <p>Congratuations! You have made an excape pod with your totally professional escape pod making skills</p>
+  
+  <a href="#sleep">Start over</a>
+</div>
+
+<div id="grass">
+  <h1>You recieved Bulbasaur</h1>
+  <P> Go grass type! I hope we don't enounter a Charmander..</p>
+  
+  <a href="#leave-town">Start our journey as a Pokemon trainer</a>
+</div>
+
+<div id="down">
+<h1>You find some ghost crewmates and they say that they are restless and cannot rest until you find out which one of the in the imposter</h1>
+</div>
+<div id="closet">
+<h1>YOU FIND A SKELETON AND A CRYING GHOST COMES OUT OF IT!<h1></h1>
+   
+    <p1>You can run back to the main hall and luckily the ghost might not follow you.</p1>
+    <p><img src="data:image/png;base64,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"></p>
+
+    <a href="#more">Go back to main hall area</a>
+    <a href="#sleep">Go back to sleep</a>
+    </h1>
+</div>
+</html>
